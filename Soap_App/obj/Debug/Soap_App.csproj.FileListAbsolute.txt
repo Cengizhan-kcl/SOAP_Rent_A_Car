@@ -1,0 +1,296 @@
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\ApplicationInsights.config
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\Soap_App.dll.config
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\Soap_App.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\Soap_App.pdb
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\csc.exe
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\csc.exe.config
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\csc.rsp
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\csi.exe
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\csi.exe.config
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\csi.rsp
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\System.AppContext.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\System.Console.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\System.IO.Compression.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\System.Security.Claims.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\System.ValueTuple.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\vbc.exe
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\vbc.exe.config
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\vbc.rsp
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\VBCSCompiler.exe
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\Antlr3.Runtime.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\Microsoft.AI.Web.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\Newtonsoft.Json.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\System.Web.Helpers.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\System.Web.Mvc.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\System.Web.Optimization.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\System.Web.Razor.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\System.Web.WebPages.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\System.Web.WebPages.Razor.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\WebGrease.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\System.Web.Helpers.xml
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\System.Web.Mvc.xml
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\System.Web.Optimization.xml
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\System.Web.Razor.xml
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\System.Web.WebPages.xml
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\System.Web.WebPages.Razor.xml
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\Newtonsoft.Json.xml
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\Antlr3.Runtime.pdb
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\Microsoft.AI.Web.xml
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\tr\System.Web.Optimization.resources.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\tr\System.Web.Razor.resources.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\tr\System.Web.WebPages.resources.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\tr\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\bin\tr\System.Web.WebPages.Razor.resources.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\obj\Debug\Soap_App.csprojAssemblyReference.cache
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\obj\Debug\Soap_App.csproj.CoreCompileInputs.cache
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\obj\Debug\Soap_App.csproj.CopyComplete
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\obj\Debug\Soap_App.dll
+C:\Users\Cengizhan K\source\repos\SoapApp\Soap_App\obj\Debug\Soap_App.pdb
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\ApplicationInsights.config
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\Soap_App.dll.config
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\Soap_App.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\Soap_App.pdb
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\csc.exe
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\csc.exe.config
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\csc.rsp
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\csi.exe
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\csi.exe.config
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\csi.rsp
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\System.AppContext.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\System.Console.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\System.IO.Compression.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\System.Security.Claims.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\System.ValueTuple.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\vbc.exe
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\vbc.exe.config
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\vbc.rsp
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\VBCSCompiler.exe
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\Antlr3.Runtime.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\Microsoft.AI.Web.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\Newtonsoft.Json.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\System.Web.Helpers.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\System.Web.Mvc.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\System.Web.Optimization.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\System.Web.Razor.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\System.Web.WebPages.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\System.Web.WebPages.Razor.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\WebGrease.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\System.Web.Helpers.xml
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\System.Web.Mvc.xml
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\System.Web.Optimization.xml
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\System.Web.Razor.xml
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\System.Web.WebPages.xml
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\System.Web.WebPages.Razor.xml
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\Newtonsoft.Json.xml
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\Antlr3.Runtime.pdb
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\Microsoft.AI.Web.xml
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\tr\System.Web.Optimization.resources.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\tr\System.Web.Razor.resources.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\tr\System.Web.WebPages.resources.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\tr\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\bin\tr\System.Web.WebPages.Razor.resources.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\obj\Debug\Soap_App.csproj.CoreCompileInputs.cache
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\obj\Debug\Soap_App.csproj.CopyComplete
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\obj\Debug\Soap_App.dll
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\obj\Debug\Soap_App.pdb
+C:\Users\Cengizhan K\Desktop\soapProje\SoapApp\Soap_App\obj\Debug\Soap_App.csprojAssemblyReference.cache
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\ApplicationInsights.config
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\Soap_App.dll.config
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\Soap_App.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\Soap_App.pdb
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\csc.exe
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\csc.exe.config
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\csc.rsp
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\csi.exe
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\csi.exe.config
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\csi.rsp
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\Microsoft.Managed.Core.targets
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\System.AppContext.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\System.Collections.Immutable.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\System.Console.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\System.IO.Compression.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\System.IO.FileSystem.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\System.IO.Pipes.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\System.Reflection.Metadata.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\System.Security.AccessControl.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\System.Security.Claims.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\System.Security.Principal.Windows.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\System.ValueTuple.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\System.Xml.XmlDocument.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\System.Xml.XPath.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\vbc.exe
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\vbc.exe.config
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\vbc.rsp
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\VBCSCompiler.exe
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\roslyn\VBCSCompiler.exe.config
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\Antlr3.Runtime.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\Microsoft.AI.Agent.Intercept.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\Microsoft.AI.DependencyCollector.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\Microsoft.AI.Web.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\Microsoft.AI.WindowsServer.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\Microsoft.ApplicationInsights.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\Microsoft.Web.Infrastructure.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\Newtonsoft.Json.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\System.Diagnostics.DiagnosticSource.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\System.Web.Helpers.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\System.Web.Mvc.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\System.Web.Optimization.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\System.Web.Razor.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\System.Web.WebPages.Deployment.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\System.Web.WebPages.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\System.Web.WebPages.Razor.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\WebGrease.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\System.Web.Helpers.xml
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\System.Web.Mvc.xml
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\System.Web.Optimization.xml
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\System.Web.Razor.xml
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\System.Web.WebPages.xml
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\System.Web.WebPages.Deployment.xml
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\System.Web.WebPages.Razor.xml
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\Newtonsoft.Json.xml
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\Antlr3.Runtime.pdb
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\System.Diagnostics.DiagnosticSource.xml
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\Microsoft.AI.DependencyCollector.xml
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\Microsoft.AI.WindowsServer.xml
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\Microsoft.AI.Web.xml
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\tr\System.Web.Helpers.resources.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\tr\System.Web.Mvc.resources.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\tr\System.Web.Optimization.resources.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\tr\System.Web.Razor.resources.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\tr\System.Web.WebPages.resources.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\tr\System.Web.WebPages.Deployment.resources.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\tr\System.Web.WebPages.Razor.resources.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\obj\Debug\Soap_App.csprojAssemblyReference.cache
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\obj\Debug\Soap_App.csproj.CoreCompileInputs.cache
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\obj\Debug\Soap_App.csproj.CopyComplete
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\obj\Debug\Soap_App.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\obj\Debug\Soap_App.pdb
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\SpiceApp.Models.dll
+D:\ProjectBox\mvs\soapProje\SoapApp - rest\Soap_App\bin\SpiceApp.Models.pdb

@@ -1,0 +1,152 @@
+﻿@model SpiceApp.Models.Entities.Car
+@using SpiceApp.Models.Entities
+@{
+    ViewBag.Title = "Addnew";
+    Layout =null;
+}
+
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!Doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width" charset="UTF-8">
+    <title>Kayıt</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="~/Content/Register.css">
+</head>
+<body style="color:brown">
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        <div class="container">
+            <!---heading---->
+            <header class="heading">Araç Kayıt Formu</header>
+            <!---Form starting---->
+            <div class="row ">
+                <!--- For Name---->
+                <form action="#" method="post">
+                    
+                    <div class="col-sm-12">
+                        <div class="row col-sm-12">
+                            <div class="col-xs-2">
+                                <label class="lastname">Marka :</label>
+                            </div>
+                            <div class="col-xs-8">
+                                <input type="text" name="lname" id="Marka" class="form-control last" style="margin-left:81px">
+                            </div>
+                            <div class="dropdown col-xs-2">
+                                <a class="btn btn-success dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    ⌵
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    @{
+                                        foreach (Brand item in (List<Brand>)Session["brand"])
+                                        {
+                                            <div class="row" style="margin:0px "><hr />
+                                                <a class="dropdown-item" id="@item.BrandID" href="#">@item.BrandName</a>
+                                            </div>
+                                        }<hr />
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-----For email---->
+                    <div class="col-sm-12">
+                        <div class="row col-sm-12">
+                            <div class="col-xs-4">
+                                <label class="mail">Model :</label>
+                            </div>
+                            <div class="col-xs-8">
+                                <input type="text" name="email" id="Model"  class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    <!-----For Password and confirm adres---->
+                    <div class="col-sm-12">
+                        <div class="row col-sm-12">
+                            <div class="col-xs-4">
+                                <label class="adres">Bagaj Hacmi :</label>
+                            </div>
+                            <div class="col-xs-8">
+                                <input type="number" name="password" id="Bagaj"  class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    <!-----For Password and confirm tel---->
+                    <div class="col-sm-12">
+                        <div class="row col-sm-12">
+                            <div class="col-xs-4">
+                                <label class="tel">Kilometre :</label>
+                            </div>
+                            <div class="col-xs-8">
+                                <input type="number" name="password" id="Kilometre"  class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    <!-----For Password and confirm ehliyetTarihi---->
+                    <div class="col-sm-12">
+                        <div class="row col-sm-12">
+                            <div class="col-xs-4">
+                                <label class="eh">hava Yastığı :</label>
+                            </div>
+                            <div class="col-xs-8">
+                                <input type="checkbox" name="password" id="hava"  class="form-control">
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-----For Password and confirm doğumtarihi---->
+                    <div class="col-sm-12">
+                        <div class="row col-sm-12">
+                            <div class="col-xs-4">
+                                <label class="dg">Min Sürücü Yaşı :</label>
+                            </div>
+                            <div class="col-xs-8">
+                                <input type="number" name="password" id="Sürücü"  class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    <!-----For Password and confirm kullanıcıadi---->
+                    <div class="col-sm-12">
+                        <div class="row col-sm-12">
+                            <div class="col-xs-4">
+                                <label class="nic">Min Ehliyet Yaşı :</label>
+                            </div>
+                            <div class="col-xs-8">
+                                <input type="number" name="password" id="Ehliyet" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    <!-----For Password and confirm password---->
+                    <div class="col-sm-12">
+                        <div class="row col-sm-12">
+                            <div class="col-xs-4">
+                                <label class="pass">Günlük Fiyatı :</label>
+                            </div>
+                            <div class="col-xs-8">
+                                <input type="number" name="password" id="Günlük"  class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <!-----------For Phone number-------->
+                <div class="col-sm-12">
+                    <div class="col-sm-12">
+                        <br />
+                        @*<div class="btn btn-warning" id="kayit">Kaydı Tamamla</div>*@
+                        <div class="form-group">
+                            <input type="submit" id="kayit" value="Kaydı Tamamla" class="btn btn-warning">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    }
+</body>
+</html>

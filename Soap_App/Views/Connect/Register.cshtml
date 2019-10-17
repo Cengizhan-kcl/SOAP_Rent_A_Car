@@ -1,0 +1,220 @@
+﻿@*@model Soap_App.UserService.User*@
+@model SpiceApp.Models.Entities.User
+@{
+    Layout = null;
+}
+
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<!------ Include the above in your HEAD tag ---------->
+<!Doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Kayıt</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="~/Content/Register.css">
+    <script >
+        $(function () {
+            $("#kayit").hide(1);
+            $("input").change(function () {
+                if ($("#fname").val() != null && $("#fname").val().length <= 20 && $("#fname").val().length!=0) {
+                    if ($("#lname").val() != null && $("#lname").val().length <= 20 && $("#lname").val().length!=0) {
+                        if ($("#email").val() != null && $("#email").val().length <= 100 && $("#email").val().length!=0) {
+                            if ($("#Adres").val() != null && $("#Adres").val().length <= 100 && $("#Adres").val().length!=0) {
+                                if ($("#phone").val() != null && $("#phone").val().length == 11) {
+                                    if ($("#ehtar").val() != null && $("#ehtar").val().length == 10) {
+                                        if ($("#dgtar").val() != null && $("#dgtar").val().length == 10) {
+                                            if ($("#nicname").val() != null && $("#nicname").val().length <= 20 && $("#nicname").val().length!=0) {
+                                                if ($("#password").val() != null && $("#password").val().length <= 20 && $("#password").val().length != 0) {
+                                                    $("#kayit").show(1);
+                                                }
+                                                else {
+                                                    $("#kayit").hide(1);
+                                                }
+                                            }
+                                            else {
+                                                $("#kayit").hide(1);
+                                            }
+                                        }
+                                        else {
+                                            $("#kayit").hide(1);
+                                        }
+                                    }
+                                    else {
+                                        $("#kayit").hide(1);
+                                    }
+                                }
+                                else {
+                                    $("#kayit").hide(1);
+                                }
+                            }
+                            else {
+                                $("#kayit").hide(1);
+                            }
+                        }
+                        else {
+                            $("#kayit").hide(1);
+                        }
+                    }
+                    else {
+                        $("#kayit").hide(1);
+                    }
+                }
+                else {
+                    $("#kayit").hide(1);
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        <div class="container">
+            <!---heading---->
+            <header class="heading">Kayıt Formu</header><hr></hr>
+            <!---Form starting---->
+            <div class="row ">
+                <!--- For Name---->
+                <form action="~/Controllers/Connect/Register" method="post">
+                    <div class="col-sm-12">
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <label class="firstname">Adi :</label>
+                            </div>
+                            <div class="col-xs-8">
+                                @*<input type="text" name="fname" id="fname" placeholder="Enter your First Name" class="form-control ">*@
+                                @Html.EditorFor(model => model.Person.Name, new { htmlAttributes = new { @type = "text", @name = "fname", @id = "fname", @placeholder = "Adı :", @class = "form-control" } })
+                                @Html.ValidationMessageFor(Model => Model.Person.Name, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-sm-12">
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <label class="lastname">Soyadı :</label>
+                            </div>
+                            <div class="col-xs-8">
+                                @*<input type="text" name="lname" id="lname" placeholder="Enter your Last Name" class="form-control last">*@
+                                @Html.EditorFor(model => model.Person.Surname, new { htmlAttributes = new { @type = "text", @name = "lname", @id = "lname", @placeholder = "Soyadı :", @class = "form-control" } })
+                                @Html.ValidationMessageFor(Model => Model.Person.Surname, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+                    <!-----For email---->
+                    <div class="col-sm-12">
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <label class="mail">Email :</label>
+                            </div>
+                            <div class="col-xs-8">
+                                @*<input type="email" name="email" id="email" placeholder="Enter your email" class="form-control">*@
+                                @Html.EditorFor(model => model.Person.Email, new { htmlAttributes = new { @type = "email", @name = "email", @id = "email", @placeholder = "Mail adresi:", @class = "form-control" } })
+                                @Html.ValidationMessageFor(Model => Model.Person.Email, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+                    <!-----For Password and confirm adres---->
+                    <div class="col-sm-12">
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <label class="adres">Adres :</label>
+                            </div>
+                            <div class="col-xs-8">
+                                @*<input type="password" name="password" id="password" placeholder="Enter your Password" class="form-control">*@
+                                @Html.EditorFor(model => model.Person.Address, new { htmlAttributes = new { @type = "text", @name = "adres", @id = "Adres", @placeholder = "Adres :", @class = "form-control" } })
+                                @Html.ValidationMessageFor(Model => Model.Person.Address, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+                    <!-----For Password and confirm tel---->
+                    <div class="col-sm-12">
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <label class="tel">Telefon :</label>
+                            </div>
+                            <div class="col-xs-8">
+                                @*<input type="n" name="password" id="password" placeholder="Enter your Password" class="form-control">*@
+                                @Html.EditorFor(model => model.Person.Phone, new { htmlAttributes = new { @type = "number", @name = "phone", @id = "phone", @placeholder = "Telefon :", @class = "form-control" } })
+                                @Html.ValidationMessageFor(Model => Model.Person.Phone, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+                    <!-----For Password and confirm ehliyetTarihi---->
+                    <div class="col-sm-12">
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <label class="eh">Ehliyet Tarihi :</label>
+                            </div>
+                            <div class="col-xs-8">
+                                @*<input type="password" name="password" id="password" placeholder="Enter your Password" class="form-control">*@
+                                @Html.EditorFor(model => model.Person.DriverLicenseDate, new { htmlAttributes = new { @type = "date", @name = "ehtar", @id = "ehtar", @class = "form-control" } })
+                                @Html.ValidationMessageFor(Model => Model.Person.DriverLicenseDate, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+                    <!-----For Password and confirm doğumtarihi---->
+                    <div class="col-sm-12">
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <label class="dg">Doğum Tarihi :</label>
+                            </div>
+                            <div class="col-xs-8">
+                                @*<input type="password" name="password" id="password" placeholder="Enter your Password" class="form-control">*@
+                                @Html.EditorFor(model => model.Person.Birthday, new { htmlAttributes = new { @type = "date", @name = "dgtar", @id = "dgtar", @class = "form-control" } })
+                                @Html.ValidationMessageFor(Model => Model.Person.Birthday, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+                    <!-----For Password and confirm kullanıcıadi---->
+                    <div class="col-sm-12">
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <label class="nic">Kullanıcı Adı :</label>
+                            </div>
+                            <div class="col-xs-8">
+                                @*<input type="password" name="password" id="password" placeholder="Enter your Password" class="form-control">*@
+                                @Html.EditorFor(model => model.Username, new { htmlAttributes = new { @type = "text", @name = "nicname", @id = "nicname", @placeholder = "Kullanıcı Adı :", @class = "form-control" } })
+                                @Html.ValidationMessageFor(Model => Model.Username, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+                    <!-----For Password and confirm password---->
+                    <div class="col-sm-12">
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <label class="pass">Şifre :</label>
+                            </div>
+                            <div class="col-xs-8">
+                                @*<input type="password" name="password" id="password" placeholder="Enter your Password" class="form-control">*@
+                                @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @type = "password", @name = "password", @id = "password", @placeholder = "Şifre :", @class = "form-control" } })
+                                @Html.ValidationMessageFor(Model => Model.Password, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <!-----------For Phone number-------->
+                <div class="col-sm-12">
+                    <div class="col-sm-12">
+                        <br />
+                        @*<div class="btn btn-warning" id="kayit">Kaydı Tamamla</div>*@
+                        <div class="form-group">
+                            <input type="submit" id="kayit" value="Kaydı Tamamla" class="btn btn-warning">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    }
+    </body>
+</html>
+

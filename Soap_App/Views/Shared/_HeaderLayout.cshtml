@@ -1,0 +1,181 @@
+﻿@model Soap_App.Models.recTar
+@*@using Soap_App.UserService*@
+@using SpiceApp.Models.Entities
+@{
+    Layout = null;
+}
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width" charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="~/Content/header.css">
+    <script>
+        $(function () {
+
+            $('a[href="#toggle-search"], .navbar-bootsnipp .bootsnipp-search .input-group-btn > .btn[type="reset"]').on('click', function (event) {
+                event.preventDefault();
+                $('.navbar-bootsnipp .bootsnipp-search .input-group > input').val('');
+                $('.navbar-bootsnipp .bootsnipp-search').toggleClass('open');
+                $('a[href="#toggle-search"]').closest('li').toggleClass('active');
+
+                if ($('.navbar-bootsnipp .bootsnipp-search').hasClass('open')) {
+                    /* I think .focus dosen't like css animations, set timeout to make sure input gets focus */
+                    setTimeout(function () {
+                        $('.navbar-bootsnipp .bootsnipp-search .form-control').focus();
+                    }, 100);
+                }
+            });
+
+            $(document).on('keyup', function (event) {
+                if (event.which == 27 && $('.navbar-bootsnipp .bootsnipp-search').hasClass('open')) {
+                    $('a[href="#toggle-search"]').trigger('click');
+                }
+            });
+
+        });
+    </script>
+    <script>
+        $(function () {
+            $("#ara").click(function () {
+                var uid = $(".q1").val();
+                var uid2 = $(".q2").val();
+                $.ajax({
+                    type: 'POST',
+                    url: 'Index',
+                    data: { t1:uid,t2:uid2 },
+                    success: function () {
+                        alert("İşlem Başarılı");
+                        
+                    },
+                    error: function () {
+                        alert("Arama İşlemi Gerçekleştirilemedi");
+                    }
+                });
+                
+            });
+            $(".mus").click(function () {
+                var mid = $(this).attr("id");
+                $.ajax({
+                    type: 'GET',
+                    url: 'Rezdet',
+                    data: { id:mid},
+                    success: function () {
+                        alert("Seçim Onaylandı");
+
+                    },
+                    error: function () {
+                        alert("İşlemi Gerçekleştirilemedi");
+                    }
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    @using (Html.BeginForm())
+    {
+     @Html.AntiForgeryToken()
+     <div class="container">
+         <nav class="[ navbar navbar-fixed-top ][ navbar-bootsnipp animate ]" role="navigation">
+            <div class="[ container ]">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="[ navbar-header ]">
+                    <button type="button" class="[ navbar-toggle ]" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="[ sr-only ]">Toggle navigation</span>
+                        <span class="[ icon-bar ]"></span>
+                        <span class="[ icon-bar ]"></span>
+                        <span class="[ icon-bar ]"></span>
+                    </button>
+                    <div class="[ animbrand ]">
+                        <a class="[ navbar-brand ][ animate ]" href="#">SPICE</a>
+                    </div>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="[ collapse navbar-collapse ]" id="bs-example-navbar-collapse-1">
+                    <ul class="[ nav navbar-nav navbar-right ]">
+                        @if (Session["giris"] != null)
+                        {
+                            if ((bool)Session["giris"])
+                            {
+                                <li><a href="@Url.Action("Index", "User")" class="[ animate ]">Rezervasyon Geçmiş</a></li>
+                                <li><a href="@Url.Action("Kiralılar", "User")" class="[ animate ]">Kiralama Geçmiş</a></li>
+                                if (Session["Proid"].ToString() == "1" || Session["Proid"].ToString() == "1001")
+                                {
+                                    if (Session["Proid"].ToString() == "1001")
+                                    {
+                                        <li><a class="animate" href="@Url.Action("Index", "Manager")">Raporlama</a></li>
+                                    }
+                                    <li><a class="animate" href="@Url.Action("SirketArac", "Car")">Araçlar</a></li>
+                                    <li><a class="animate" href="@Url.Action("Register", "Connect")">Kayıt Ol</a></li>
+
+                                }
+                                <li><a href="@Url.Action("Profil", "User")" class="[ animate ]">Profil</a></li>
+                                <li><a class="animate" href="@Url.Action("Logout", "Connect")">Çıkış</a></li>
+                            }
+                            else
+                            {
+                                <li><a class="animate" href="@Url.Action("Register", "Connect")">Register</a></li>
+                                <li><a class="animate" href="@Url.Action("Login", "Connect")">Login</a></li>
+                            }
+                        }
+
+                        <li class="[ hidden-xs ]"><a href="#toggle-search" class="[ animate ]"><span class="[ glyphicon glyphicon-search ]"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="[ bootsnipp-search animate ]">
+                <div class="[ container ]">
+                    <form action="#" method="post" role="search">
+                        <div class="[ input-group ] container-fluid">
+                            <div class="col-xs-4">
+                                @Html.EditorFor(model => model.tar1, new { htmlAttributes = new { @type = "date", @class = "[ form-control ] q1" } })
+                                @Html.ValidationMessageFor(Model => Model.tar1, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="col-xs-4">
+                                @Html.EditorFor(model => model.tar2, new { htmlAttributes = new { @type = "date", @class = "[ form-control ] q2" } })
+                                @Html.ValidationMessageFor(Model => Model.tar2, "", new { @class = "text-danger" })
+                            </div>
+                            @if (Session["Proid"].ToString() == "1"|| Session["Proid"].ToString() == "1001")
+                            {
+                                <div class="col-xs-2">
+                                    <div class="dropdown">
+                                        <a class="btn btn-success dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Müşteriler
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                            @{
+                                                foreach (User item in (List<User>)Session["costumer"])
+                                                {
+                                                    <div class="row" style="margin:0px ">
+                                                        <hr />
+                                                        <a class="dropdown-item mus" id="@item.UserID" href="#">@item.Person.Name @item.Person.Surname</a>
+                                                    </div>
+                                                }
+                                                <hr />
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                            <div class="[ input-group ] col-md-2">
+
+                                <div class="form-group">
+                                    @*<input type="submit" value="Ara" class="btn float-right login_btn" >*@
+                                    <a id="ara" class="btn float-right login_btn" type="submit" href="@Url.Action("Index","Car")">Ara</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+    }
+    @RenderBody()
+</body>
+</html>

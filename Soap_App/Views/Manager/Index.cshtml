@@ -1,0 +1,319 @@
+﻿@using SpiceApp.Models.Templates
+@model Soap_App.Models.recTar
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_HeaderLayout.cshtml";
+}
+<style>
+    .row {
+        margin-top: 40px;
+        padding: 0 10px;
+    }
+
+    .clickable {
+        cursor: pointer;
+    }
+
+    .panel-heading div {
+        margin-top: -18px;
+        font-size: 15px;
+    }
+
+        .panel-heading div span {
+            margin-left: 5px;
+        }
+
+    .panel-body {
+        display: none;
+    }
+</style>
+<script>
+    (function () {
+        'use strict';
+        var $ = jQuery;
+        $.fn.extend({
+            filterTable: function () {
+                return this.each(function () {
+                    $(this).on('keyup', function (e) {
+                        $('.filterTable_no_results').remove();
+                        var $this = $(this),
+                            search = $this.val().toLowerCase(),
+                            target = $this.attr('data-filters'),
+                            $target = $(target),
+                            $rows = $target.find('tbody tr');
+
+                        if (search == '') {
+                            $rows.show();
+                        } else {
+                            $rows.each(function () {
+                                var $this = $(this);
+                                $this.text().toLowerCase().indexOf(search) === -1 ? $this.hide() : $this.show();
+                            })
+                            if ($target.find('tbody tr:visible').size() === 0) {
+                                var col_count = $target.find('tr').first().find('td').size();
+                                var no_results = $('<tr class="filterTable_no_results"><td colspan="' + col_count + '">No results found</td></tr>')
+                                $target.find('tbody').append(no_results);
+                            }
+                        }
+                    });
+                });
+            }
+        });
+        $('[data-action="filter"]').filterTable();
+    })(jQuery);
+
+    $(function () {
+        // attach table filter plugin to inputs
+        $('[data-action="filter"]').filterTable();
+
+        $('.container').on('click', '.panel-heading span.filter', function (e) {
+            var $this = $(this),
+                $panel = $this.parents('.panel');
+
+            $panel.find('.panel-body').slideToggle();
+            if ($this.css('display') != 'none') {
+                $panel.find('.panel-body input').focus();
+            }
+        });
+        $('[data-toggle="tooltip"]').tooltip();
+    })
+</script>
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<head lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <meta charset="utf-8" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $(".rentdetay").click(function () {
+                var rentid = $(this).attr("name");
+                $.ajax({
+                    type: 'GET',
+                    url: 'RentID',
+                    data: { id: rentid },
+                    success: function () {
+                        alert("İşlem Başarılı");
+                    },
+                    error: function () {
+                        alert("İşlem Gerçekleştirilemedi");
+                    }
+                });
+            });
+            $("#arama").click(function () {
+                var uid = $(".q3").val();
+                $.ajax({
+                    type: 'POST',
+                    url: 'tar',
+                    data: { t1: uid },
+                    success: function () {
+                        alert("İşlem Başarılı");
+
+                    },
+                    error: function () {
+                        alert("Arama İşlemi Gerçekleştirilemedi");
+                    }
+                });
+
+            });
+        });
+    </script>
+</head>
+<body>
+    <table style="margin:auto">
+        <tr>
+            <td>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="panel panel-success">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Günlük Kilometre Bilgileri</h3>
+                                    <div class="pull-right">
+                                        <span class="clickable filter" data-toggle="tooltip" title="Toggle table filter" data-container="body">
+                                            <i class="glyphicon glyphicon-filter"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="panel-body">
+                                    <input type="text" class="form-control" id="task-table-filter" data-action="filter" data-filters="#task-table" placeholder="Filter Tasks" />
+                                </div>
+                                <table class="table table-hover" id="task-table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Kira No</th>
+                                            <th>Marka</th>
+                                            <th>Model</th>
+                                            <th>Günlük KM</th>
+                                            <th>Tarih</th>
+                                            <th>Durum</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @if (Session["dailyKm"] != null)
+                                        {
+                                            int i = 1;
+                                            foreach (DailyKmInfo item in (List<DailyKmInfo>)Session["dailyKm"])
+                                            {
+                                                <tr>
+                                                    <td>@i.ToString()</td>
+                                                    <td>@item.RentID.ToString()</td>
+                                                    <td>@item.BrandName.ToString()</td>
+                                                    <td>@item.CarModel.ToString()</td>
+                                                    <td>@item.DailyKm.ToString()</td>
+                                                    <td>@item.Date.ToString()</td>
+                                                    <td>@item.State.ToString()</td>
+                                                    <td><a type="button" name="@item.RentID.ToString()" class="btn btn-info rentdetay" href="@Url.Action("Rentdetay", "Manager")">Detay</a></td>
+                                                </tr>
+                                                i++;
+                                            }
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="panel panel-success">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Şirket Gelir Bilgileri</h3>
+                                </div>
+                                <table class="table table-hover" id="task-table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Araç Sayısı</th>
+                                            <th>Toplam Gelir</th>
+                                            <th>Toplam Giderler</th>
+                                            <th>Net Değer</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            @if (Session["comBalIn"] != null)
+                                            {
+                                                foreach (CompanyBalanceInfo item in (List<CompanyBalanceInfo>)Session["comBalIn"])
+                                                {
+                                                    <td></td>
+                                                    <td>@item.CarCount.ToString()</td>
+                                                    <td>@item.TotalIncome.ToString()</td>
+                                                    <td>@item.TotalExpenses.ToString()</td>
+                                                    <td>@item.NetValue.ToString()</td>
+                                                }
+                                            }
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="panel panel-success">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Kilometre Aşım Bilgileri</h3>
+                                </div>
+                                <table class="table table-hover" id="task-table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Şirket Adı</th>
+                                            <th>Şirket Geliri</th>
+                                            <th>Puan</th>
+                                            <th>Aşılan Km Değeri</th>
+                                            <th>Dönem</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            @if (Session["ovKmIn"] != null)
+                                            {
+                                                foreach (OverKmInfo item in (List<OverKmInfo>)Session["ovKmIn"])
+                                                {
+                                                    <td></td>
+                                                    <td>@item.CompanyName.ToString()</td>
+                                                    <td>@item.CompanyBalance.ToString()</td>
+                                                    <td>@item.Score.ToString()</td>
+                                                    <td>@item.OverKmRate.ToString()</td>
+                                                    <td>@item.Term.ToString()</td>
+                                                }
+                                            }
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="panel panel-success">
+                                <div class="panel-heading">
+                                    <table>
+                                        <tr>
+                                            <td><h3 class="panel-title">Kilometre Aşım Bilgileri</h3></td>
+                                            <td>
+                                                @Html.EditorFor(model => model.tar1, new { htmlAttributes = new { @type = "date", @class = "[ form-control ] q3" } })
+                                                @Html.ValidationMessageFor(Model => Model.tar1, "", new { @class = "text-danger" })
+                                            </td>
+                                            <td><a id="arama" type="submit" href="@Url.Action("Index", "Manager")">Rapor Çek</a></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <table class="table table-hover" id="task-table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Araç No</th>
+                                            <th>Marka</th>
+                                            <th>Model</th>
+                                            <th>Aylık Kiralanma Oranı</th>
+                                            <th>Dönem</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                        @if (Session["rentRate"] != null)
+                                        {
+                                            foreach (RentRate item in (List<RentRate>)Session["rentRate"])
+                                            {
+                                        <tr>
+                                            <td></td>
+                                            <td>@item.CarID.ToString()</td>
+                                            <td>@item.BrandName.ToString()</td>
+                                            <td>@item.CarModel.ToString()</td>
+                                            <td>@item.MonthRate.ToString()</td>
+                                            <td>@item.Term.ToString()</td>
+                                        </tr>
+                                                    }
+                                                    }
+                                                
+                                            </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
